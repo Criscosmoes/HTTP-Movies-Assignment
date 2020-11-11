@@ -18,6 +18,8 @@ function SavedList({ list }) {
       })}
       <div className="home-button">
         <Link to="/">Home</Link>
+        <div></div>
+        <Link className="link" to="add-movie">Add A Movie</Link>
       </div>
     </div>
   );
